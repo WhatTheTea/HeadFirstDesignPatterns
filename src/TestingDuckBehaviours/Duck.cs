@@ -2,8 +2,8 @@
 
 public abstract class Duck
 {
-    IFly flyBehaviour;
-    IQuack quackBehaviour;
+    protected IFly flyBehaviour;
+    protected IQuack quackBehaviour;
     public abstract void Display();
     public virtual void Fly() => flyBehaviour.Fly();
     public virtual void Quack() => quackBehaviour.Quack();
