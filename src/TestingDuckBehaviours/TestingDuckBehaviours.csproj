@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Fly/" />
+    <Folder Include="Quack/" />
+  </ItemGroup>
+
 </Project>
