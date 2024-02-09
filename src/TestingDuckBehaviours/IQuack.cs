@@ -1,4 +1,4 @@
-﻿namespace TestingDuckBehaviours;
+﻿namespace HeadFirstDesignPatterns.TestingDuckBehaviours;
 
 public interface IQuack
 {
