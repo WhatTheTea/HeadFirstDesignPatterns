@@ -1,4 +1,4 @@
-﻿namespace HeadFirstDesignPatterns.TestingDuckBehaviours;
+﻿namespace TestingDuckBehaviours;
 
 public abstract class Duck
 {
