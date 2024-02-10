@@ -2,4 +2,10 @@
 
 // TODO: - C# Observer pattern
 //       - weather service integration 
-Console.WriteLine("Hello, World!");
+
+using WeatherStation;
+
+var data = new WeatherData();
+var display = new CurrentConditionsDisplay(data);
+
+data.SetMeasurements(-10,65,29.2f);
