@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingDuckBehaviours", "TestingDuckBehaviours\TestingDuckBehaviours.csproj", "{FA7D8269-1832-4C66-A74C-5F23C8D28206}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{805D7E9F-416A-4DE6-8C38-038F01A5F3BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FA7D8269-1832-4C66-A74C-5F23C8D28206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA7D8269-1832-4C66-A74C-5F23C8D28206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA7D8269-1832-4C66-A74C-5F23C8D28206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805D7E9F-416A-4DE6-8C38-038F01A5F3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805D7E9F-416A-4DE6-8C38-038F01A5F3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805D7E9F-416A-4DE6-8C38-038F01A5F3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805D7E9F-416A-4DE6-8C38-038F01A5F3BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

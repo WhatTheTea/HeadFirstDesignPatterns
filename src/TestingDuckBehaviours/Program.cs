@@ -1,5 +1,7 @@
 ﻿namespace TestingDuckBehaviours;
-
+/// <summary>
+/// Strategy pattern implementation from HFDP
+/// </summary>
 public class Program 
 {
     public static void Main()
