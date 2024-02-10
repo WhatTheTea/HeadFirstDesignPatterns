@@ -18,5 +18,13 @@ public sealed class WeatherData : ISubject
         }
     }
 
-    
+    public void MeasurementsChanged() => NotifyObservers();
+    public void SetMeasurements(float temperature, float humidity, float pressure)
+    {
+        this.temperature = temperature;
+        this.humidity = humidity;
+        this.pressure = pressure;
+
+        MeasurementsChanged();
+    }
 }
