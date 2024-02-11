@@ -1,25 +1,16 @@
 ﻿namespace WeatherStation;
 
-public class DisplayCurrentConditions : IDisplay, IObserver
+public class DisplayCurrentConditions(ISubject dataSource) : Display(dataSource)
 {
-    private float temperature;
-    private float humidity;
-    private ISubject dataSource; // WeatherData in orig, but why lol?
-    public DisplayCurrentConditions(ISubject dataSource)
-    {
-        this.dataSource = dataSource;
-        dataSource.AddObserver(this);
-    }
-
-    public void Display()
+    public override void ShowDisplay()
     {
         Console.WriteLine($"Conditions:\nTemp: {this.temperature}\tHumidity: {this.humidity}%");
     }
     // Pack parameters to something like eventArgs?
-    public void Update(float temperature, float humidity, float pressure)
+    public override void Update(float temperature, float humidity, float pressure)
     {
         this.temperature = temperature;
         this.humidity = humidity;
-        Display();
+        ShowDisplay();
     }
 }
