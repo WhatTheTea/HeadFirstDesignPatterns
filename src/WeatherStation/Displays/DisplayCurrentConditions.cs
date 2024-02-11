@@ -1,11 +1,11 @@
 ﻿namespace WeatherStation;
 
-public class CurrentConditionsDisplay : IDisplay, IObserver
+public class DisplayCurrentConditions : IDisplay, IObserver
 {
     private float temperature;
     private float humidity;
     private ISubject dataSource; // WeatherData in orig, but why lol?
-    public CurrentConditionsDisplay(ISubject dataSource)
+    public DisplayCurrentConditions(ISubject dataSource)
     {
         this.dataSource = dataSource;
         dataSource.AddObserver(this);

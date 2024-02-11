@@ -6,6 +6,6 @@
 using WeatherStation;
 
 var data = new WeatherData();
-var display = new CurrentConditionsDisplay(data);
+var display = new DisplayCurrentConditions(data);
 
 data.SetMeasurements(-10,65,29.2f);
